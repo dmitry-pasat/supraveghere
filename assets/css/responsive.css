@@ -1,0 +1,326 @@
+/*header, navigation, slider*/
+@media(min-width: 960px) {
+	.workprocess-questions .col-md-2  {
+		   width: 20%;
+	}
+}
+@media(max-width: 1198px){
+
+	.cart {
+		display:none;
+	}
+	.calc p{
+		display:none;
+	}
+	
+	#slider .carousel-control span {  
+    top: 49%;
+	}
+
+	header .container{
+		width:90%;
+	}
+	#navigation .catalog-list{
+		display:none;
+	}
+	#navigation .catalog{
+		width: 210px;
+	}
+	#navigation .navbar-nav .home{
+		display:none;
+	}
+	#slider .col-md-offset-3{
+	    margin-left: 0px;
+	    width: 100%;
+	    padding: 0px;
+	}
+	#slider .container{
+		width:100%;
+	}
+	.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	    line-height: 1;
+	    width: 100%;
+	}
+}
+@media(max-width: 1144px){
+	header .header-divider .phone-ul .calc{
+		display:none;
+	}
+}
+
+@media(max-width:1024px){
+	#navigation a{
+		font-size:12px;
+	}
+}
+@media(max-width: 1198px) and (min-width:1058px){
+	header .header-divider .phone-ul .phone-callback{
+		margin-right: 7%;
+	}
+}	
+@media(max-width:986px){
+	#navigation .catalog{
+		width: 196px;
+	}	
+}
+
+@media(max-width:940px){
+    #navigation .catalog{
+    	width:178px;
+    }
+    #navigation a{
+		font-size:11px;
+	}
+}
+
+@media(max-width:874px){
+	#navigation .catalog{
+		width:149px;
+	}
+	#navigation a{
+    	font-size: 11px;
+    	padding: 15px 4px;
+	}
+}
+@media(max-width:564px){
+	header .phone-ul li:nth-child(5) div{
+		margin-top:5%;
+	}
+	header .phone{
+		float: left;
+    	font-size: 18px;
+	}
+	header .callback{
+		float: right;
+	    width: 52%;
+	    font-size: 13px;
+	    margin-top: -26px;
+	    margin-left: 65px;
+	}
+}
+@media(max-width:404px){
+	header .phone-callback{
+		margin-top:17px;
+	}
+	header .phone{
+		float: left;
+    	width: 50%;
+    	font-size:16px;
+	}
+	header .callback{
+		float: right;
+    	width: 52%;
+    	font-size: 12px;
+    	margin-top: -23px;
+    	margin-left: 20px;
+	}
+}
+@media(max-width:767px){
+	#navigation .navbar-nav{
+		padding-left:22px;
+	}
+	#navigation .catalog{
+		width: 202px;
+	}
+	#navigation .catalog a{
+		padding-left: 8px;
+	}
+	#navigation a{
+		font-size: 14px
+	}
+	#navigation .navbar-collapse{
+		border-color: #1565c0;
+	}
+	#navigation .navbar-nav .home {
+    	display: initial;
+	}
+	#navigation .navbar-nav .home a {
+    	padding-top:0;
+    	padding-bottom:0;
+	}
+}
+
+/*product catalog, discounts*/
+@media(max-width:991px){
+	.product-catalog .container .row .col-sm-5{
+		margin-left:38px;
+		margin-bottom: 30px;
+	}
+	.discounts .container .row .col-sm-12{
+		margin-bottom:11%;
+		text-align: center;
+	}
+}
+@media(max-width:1208px){
+	.discounts .video-item-discount .row {
+    	margin-left:0;
+    	margin-right:0;
+    	/*max-width: 100%;*/
+	}
+}
+@media(max-width:767px){
+	.product-catalog .container .row .product-item{
+		padding: 0 28%;
+	}
+	.discounts{
+		background-size: initial;
+		padding-top: 41px;
+    	padding-bottom: 35px;
+	}
+	.discounts .video-item-discount .video-item {
+    	padding: 27px 25px;
+    	/*max-width: 100%;*/
+	}
+	.discounts .video-item-discount {  
+		width: 84%;
+    	margin: auto; 
+	}
+	/*.discounts .promotion{
+		max-width: 68%;
+	}*/
+	.discounts .promotion{
+		float:none;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+@media(max-width:400px){
+	.discounts .video-item-discount .video-item{
+		width: 90%;
+	}
+	.promotion input {
+    	width:66%;
+	}
+}
+
+/*benefits, calculate*/
+
+@media(max-width:1202px){
+	.benefits .benefits-left-right p {
+    	padding-left: 93px;
+	}
+}
+@media(max-width: 767px){
+	.benefits .container{
+	    padding-left: 25px;
+	    padding-right: 25px;
+	}
+    .calculate .right-side{
+    	width:100%;
+    	padding-left:15px;
+    }
+}
+@media(max-width:990px){
+	.calculate{
+		background: url(../img/calculate-background.jpg) 0% 49% no-repeat;
+	}
+	.calculate .calculate-tool .name-entry {
+    	padding-right: 15px;
+    	margin-bottom: 14px;
+	}
+	.calculate .calculate-tool .email-entry {
+    padding-left: 15px;
+	}
+}
+
+/*workprocess questions*/
+@media(max-width:990px){
+	.workprocess-questions .workprocess-box{ 
+        width:100%;
+	}
+}
+@media(max-width:958px){
+	.workprocess-questions > .container > .row > .col-md-2::before {
+    content: '';
+    display: none;
+	}
+	
+}
+@media(max-width:960px) and (min-width:766px){
+	.workprocess-questions .container .col-sm-3{
+		width: 20%;
+	}
+}
+@media(max-width:764px){
+	.workprocess-questions > .container > .row > .col-md-2 .process-image::before,
+	.workprocess-questions > .container > .row > .col-md-2 .process-image:first-child::before,
+	.workprocess-questions > .container > .row > .col-md-2:last-child .process-image::after,
+	.workprocess-questions > .container > .row > .col-md-2 .process-image::after {
+	    content: '';
+	    display: none;
+	}
+	.workprocess-questions {
+	 	background-size:cover;
+	    padding-bottom: 170px;
+	}
+}
+@media(max-width:1198px){
+	.workprocess-questions .work-form button {
+    margin-top: 20px;
+	}
+}
+@media(max-width:815px){
+	.workprocess-questions .work-form { 
+    	width: 73%;  
+	}
+}
+@media(max-width:767px){
+	.workprocess-questions .work-form div {
+    display:inline-block;
+    text-align:center;
+	}
+	.workprocess-questions {
+    	height: 1283px;
+    	margin-bottom: 270px;
+	}
+}
+@media(max-width:714px){
+	.workprocess-questions .work-form {
+    	width: 66%;
+	}
+}
+@media(max-width:608px){
+	.workprocess-questions {
+    	margin-bottom: 315px;
+	}
+}
+@media(max-width:380px){
+	.workprocess-questions {
+		margin-bottom: 353px;
+	}
+}
+
+/*our clients, testimonials, contact*/
+@media(max-width:990px){
+	.testimonials {
+    	background-size: cover;
+	}
+	.our-clients {
+    	margin-bottom: 5px;
+	}
+	.contact .container .row .col-sm-12{
+		padding-bottom: 27px;
+	}
+	.contact .contact-text {
+    	margin-left: 181px;   
+	}
+}
+@media(max-width:730px){
+	.contact .contact-text {
+    	margin-left: 180px;   
+	}
+}
+
+/*have questions*/
+@media(max-width:767px){
+	.have-questions .work-form div {
+    	text-align: center;
+    	display: inline-block;
+	}
+	.contact .contact-icon {	    
+	    width: 100px;
+	}
+	.contact .contact-text{
+		margin-left: 133px;
+	}
+}
